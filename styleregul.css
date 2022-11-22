@@ -1,0 +1,279 @@
+*{margin:0;
+    padding:0;
+   
+    }
+    
+.navbar{
+    width:100%;
+    height:50px;
+  
+    position: relative;
+    z-index: 4;
+}
+.navig {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+   background-color: rgb(255, 255, 255);;
+    width:100%;
+    z-index: 7;
+    border-bottom: 1px solid silver;
+    box-shadow: 1px 0 10px silver;
+}
+ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+.navva{
+    display:flex;
+    flex-direction: row;
+    width:70%;
+    height:60px;
+    font-size: 25px;
+    justify-content: space-between;
+    padding-top: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.logo{
+    padding-left:0px;
+    font-size:30px;
+   font-weight: 600;
+    padding-top: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.imaginn{
+    height:100px;
+  
+}
+.logo:hover{
+ transition: 3s;
+    color:black
+}
+.navva li:hover{
+    transition: 0.5s;
+    opacity: 0.5;
+}
+.navva li{
+    transition: 0.5s;
+}
+
+
+
+    .pentruimg{
+        width:100%;
+        height:1000px;
+         background-image: url(imo.jpg);
+         background-size: cover;
+         background-position: center;
+         position: absolute;
+         top: 0;
+     }
+
+.consil{
+    width:100%;
+    height:500px;
+     background-image: url(consil.jpg);
+     background-size: cover;
+     background-position: center;
+     position: absolute;
+     top: 0;
+     position: fixed;
+}
+
+.cover{
+    width:100%;
+    height:6000px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 450px;
+    position:relative;
+}
+.eta{
+    color:rgb(255, 255, 255);
+    margin-top: 230px;
+    margin-left: 550px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    position:relative;
+    
+}
+.hh2{
+    padding-top: 50px;
+    margin-left: 160px;
+    height:50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:30px;
+}
+.pres{
+    padding-left: 180px;
+}
+.senatul{
+display: flex;
+flex-direction: row;
+}
+.hh3{
+    padding-top: 80px;
+    margin-left: 160px;
+    height:50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:30px;
+}
+.tit{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height:300px;
+    gap:20px;
+    margin-top: 40px;
+}
+.imagsenat img{
+    width:425px;
+    height: 530px;
+    margin-left: 1200px;
+    border-radius: 10px;
+   margin-top: 0;
+  
+
+ 
+}
+.texito{
+    font-size: 23px;
+    margin-left: 500px;
+    font-family: 'Josefin Sans', sans-serif;
+    color:rgb(112, 112, 112)
+    
+}
+.non{
+    font-size: 25px;
+    font-weight: 400;
+    color:rgba(0, 0, 0, 0.973)
+}
+
+.susy{
+    width:425px;
+    height: 530px;
+    margin-left: 1200px;
+    border-radius: 10px;
+ padding-bottom: 500px;
+}
+.footer{
+    width:1899px;
+    height:800px;
+    border:1px solid black;
+    background-color: rgb(31, 31, 31);
+    position: relative;
+}
+.totfoot{
+    margin-left: 250px;
+}
+
+
+
+
+
+
+.foott{
+    margin-left: 900px;
+    margin-top: 50px;
+}
+.foot{
+    width:100%;
+    height:100px;
+    background-color:  rgb(43, 42, 40);
+    
+    color:white;
+
+}
+.sento{
+    border:none;
+    background-color: rgb(12, 48, 145) ;
+    color:white;
+    width:1348px;
+    margin-top: 50px;
+    margin-left:20px;
+    height:50px;
+    font-size: 20px;
+    transition: 1s;
+}
+.sento:hover{
+    background-color:  rgb(94, 128, 221);
+    transition: 1s;
+}
+.textaria{
+    margin-top: 50px;
+    margin-left:20px;
+    outline: none;
+    border: 1px solid rgb(233, 231, 231) ;
+    background-color: rgb(241, 241, 241);
+    font-family: 'Libre Baskerville', serif;
+    width:1300px;
+    padding: 20px;
+}
+.heh{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    margin-left:20px;
+    margin-top: 60px;
+}
+.heh input{
+    border: 1px solid rgb(233, 231, 231) ;
+    outline: none;
+    padding-left: 20px;
+}
+.areas input{
+ border:none;
+  background-color:rgb(241, 241, 241);
+  width:400px;
+  height:50px;
+  font-family: 'Libre Baskerville', serif;
+ 
+}
+hr{
+    background-color:rgb(184, 184, 184);
+    width:1250px;
+    margin-left:32px;
+}
+.pp{
+    margin-top: 35px;
+    color:rgb(136, 136, 136);
+    font-size: 20px;
+}
+.ssa{
+    font-size: 40px;
+}
+.sppan{
+    color:rgba(74, 96, 157, 1);
+    font-size: 40px;
+}
+.texte{
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+  }
+  .noni {
+ width:200px;
+ height:200px;
+  }
+  .tt{
+      display: flex;
+      flex-direction: row;
+  }
+  .textimo{
+      margin-top: 80px;
+      color:white;
+      font-size: 20px;
+      font-family: 'Libre Baskerville', serif;
+  }
+.han{
+    color:antiquewhite;
+    margin-top: 50px;
+    margin-left: 600px;
+}
+
+
+
